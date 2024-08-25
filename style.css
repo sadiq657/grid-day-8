@@ -1,0 +1,35 @@
+\*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .news-1{
+border: 2px solid red;
+
+  grid-column: 1/2;
+   
+} */
+
+.container > div:nth-of-type(1){
+    grid-column: 1/3;
+    border: 2px solid red;
+}
+
+/* .container > div:nth-of-type(6){
+    grid-column: 1/3;
+} */
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2px;
+   
+}
+a{
+    text-decoration: none;
+}
+a :hover{
+    text-decoration: underline;
+    color: blue;
+}
